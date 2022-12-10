@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BEF9BA2A292721C0002CBA50 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF9BA29292721C0002CBA50 /* main.cpp */; };
+		BEE62BFF2929BF2A00F06BA3 /* inputCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEE62BFD2929BF2A00F06BA3 /* inputCheck.cpp */; };
+		BEF9BA3629272373002CBA50 /* tcpServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF9BA3529272373002CBA50 /* tcpServer.cpp */; };
+		BEF9BA3829272390002CBA50 /* tcpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEF9BA3729272390002CBA50 /* tcpClient.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BEE62BFD2929BF2A00F06BA3 /* inputCheck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inputCheck.cpp; sourceTree = "<group>"; };
+		BEE62BFE2929BF2A00F06BA3 /* inputCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inputCheck.h; sourceTree = "<group>"; };
 		BEF9BA26292721C0002CBA50 /* 6122_Lab5_socket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 6122_Lab5_socket; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF9BA29292721C0002CBA50 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		BEF9BA2C292721C0002CBA50 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute_image.jpg; path = ../cute_image.jpg; sourceTree = "<group>"; };
-		BEF9BA2D292721C0002CBA50 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = nice_music.ogg; path = ../nice_music.ogg; sourceTree = "<group>"; };
-		BEF9BA2E292721C0002CBA50 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = ../sansation.ttf; sourceTree = "<group>"; };
-		BEF9BA2F292721C1002CBA50 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		BEF9BA3529272373002CBA50 /* tcpServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tcpServer.cpp; sourceTree = "<group>"; };
+		BEF9BA3729272390002CBA50 /* tcpClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tcpClient.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,21 +50,12 @@
 		BEF9BA28292721C0002CBA50 /* 6122_Lab5_socket */ = {
 			isa = PBXGroup;
 			children = (
-				BEF9BA29292721C0002CBA50 /* main.cpp */,
-				BEF9BA2B292721C0002CBA50 /* Resources */,
+				BEF9BA3729272390002CBA50 /* tcpClient.cpp */,
+				BEF9BA3529272373002CBA50 /* tcpServer.cpp */,
+				BEE62BFD2929BF2A00F06BA3 /* inputCheck.cpp */,
+				BEE62BFE2929BF2A00F06BA3 /* inputCheck.h */,
 			);
 			path = 6122_Lab5_socket;
-			sourceTree = "<group>";
-		};
-		BEF9BA2B292721C0002CBA50 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BEF9BA2C292721C0002CBA50 /* cute_image.jpg */,
-				BEF9BA2D292721C0002CBA50 /* nice_music.ogg */,
-				BEF9BA2E292721C0002CBA50 /* sansation.ttf */,
-				BEF9BA2F292721C1002CBA50 /* icon.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +115,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF9BA2A292721C0002CBA50 /* main.cpp in Sources */,
+				BEF9BA3629272373002CBA50 /* tcpServer.cpp in Sources */,
+				BEE62BFF2929BF2A00F06BA3 /* inputCheck.cpp in Sources */,
+				BEF9BA3829272390002CBA50 /* tcpClient.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
